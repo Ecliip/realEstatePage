@@ -40,6 +40,20 @@ body {
     font-size: 1.3rem;
 }
 
+@media (max-width: 600px) {
+    .headerNavItem {
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .headerNavItem {
+        text-transform: uppercase;
+        font-size: .8rem;
+    }
+}
+
 .headerNavItem > a {
     color: #fff5e7;
 }
@@ -66,7 +80,16 @@ body {
 }
 
 .mRow p {
+    text-align: justify;
+    line-height: 2.2rem;
     font-size: 1.3rem;
+}
+
+@media (max-width: 600px) {
+    .mRow p {
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
 }
 
 footer {
@@ -85,10 +108,6 @@ footer .myIconBox {
     min-height: 60vh
 }
 
-p {
-    text-align: justify;
-    line-height: 2.2rem;
-}
 
 .mCarouselItem {
     position: relative;
@@ -106,4 +125,17 @@ p {
     width: 100%;
     text-align: center;
     z-index: 100;
+}
+
+@media (max-width: 800px) {
+    .mHeadingSlider {
+        padding: 1rem .5rem;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .mHeadingSlider {
+        font-size: 1.2rem;
+    }
 }
