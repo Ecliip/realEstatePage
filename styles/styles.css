@@ -1,3 +1,9 @@
+body {
+    background-color: darkgrey;
+    background-image: url("../images/brick.jpeg");
+    background-attachment: fixed;
+}
+
 .bg-blue {
     background: #dedeff;
 }
@@ -15,7 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 10px;
+    font-size: 13px;
     color: #ffffff;
 }
 
@@ -31,7 +37,7 @@
 
 .headerNavItem {
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 1.3rem;
 }
 
 .headerNavItem > a {
@@ -47,9 +53,20 @@
 /*    background-color: rgba(41, 79, 234, 0.45);*/
 /*    z-index: 0;*/
 /*}*/
+.mRow {
+    padding: 2rem 1rem 1rem;
+}
 
 .mRow:nth-of-type(even) {
-    background-color: #dff2ff;
+    background-color: white;
+}
+
+.mRow:nth-of-type(odd) {
+    background-color: white;
+}
+
+.mRow p {
+    font-size: 1.3rem;
 }
 
 footer {
@@ -70,4 +87,23 @@ footer .myIconBox {
 
 p {
     text-align: justify;
+    line-height: 2.2rem;
+}
+
+.mCarouselItem {
+    position: relative;
+}
+
+.mHeadingSlider {
+    position: absolute;
+    top: 30%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -50%); /* This is a shorthand of translateX(-50%) and translateY(-50%) */
+    color: white;
+    background-color: rgba(54, 54, 54, 0.57);
+    padding: 2rem 1rem;
+    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
 }
