@@ -1,6 +1,6 @@
 body {
-    background-color: darkgrey;
-    background-image: url("../images/brick.jpeg");
+    background-color: #ffffff;
+    /*background-image: url("../images/brick.jpeg");*/
     background-attachment: fixed;
 }
 
