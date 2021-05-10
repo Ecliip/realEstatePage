@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff;
+    background-color: rgb(224, 228, 238);
     /*background-image: url("../images/brick.jpeg");*/
     background-attachment: fixed;
 }
@@ -30,7 +30,7 @@ body {
 }
 
 .myNav {
-    background-color: rgb(92, 149, 224);
+    background-color: rgb(8, 39, 76);
     color: #262626;
     border-bottom: #262626 1px solid;
 }
@@ -69,15 +69,16 @@ body {
 /*}*/
 .mRow {
     padding: 2rem 1rem 1rem;
+    background-color: #ffffff;
 }
 
-.mRow:nth-of-type(even) {
-    background-color: white;
-}
+/*.mRow:nth-of-type(even) {*/
+/*    background-color: #ebedff;*/
+/*}*/
 
-.mRow:nth-of-type(odd) {
-    background-color: white;
-}
+/*.mRow:nth-of-type(odd) {*/
+/*    background-color: #faeac9;*/
+/*}*/
 
 .mRow p {
     text-align: justify;
@@ -138,4 +139,9 @@ footer .myIconBox {
     .mHeadingSlider {
         font-size: 1.2rem;
     }
+}
+
+
+.logo-color {
+    color: white;
 }
